@@ -27,23 +27,29 @@ git clone --depth=1 https://github.com/romkatv/powerlevel10k.git ${ZSH_CUSTOM:-$
 curl -o ~/.zshrc "https://raw.githubusercontent.com/papichulo/config/main/.zshrc"
 curl -o ~/.p10k.zsh "https://raw.githubusercontent.com/papichulo/config/main/.p10k.zsh"
 
-#TODO Install Java
-#Install Node&NVM
-#Install IntelliJ&Jetbrains toolbox
-#Install Docker/OrbStack
-#Install Signal
+#TODO Install IntelliJ&Jetbrains toolbox
 
-#Install VsCode from Homebrew
+#Install VsCode, Discord & Firefox from Homebrew
 brew install --cask visual-studio-code
+brew install --cask discord
+brew install --cask firefox
+#Install Nvm and Node 18
+brew install nvm
+nvm install 18
+#Install Java 17 OpenJDK
+brew install openjdk@17
+#Install Orbstack for Docker
+brew install orbstack
 
 #install AppStore CLI
 brew install mas
 
-#Install Magnet From AppStore
+#Install Apps From AppStore
+#Magnet
 mas install 441258766
-
-#Install Whatsapp Desktop from AppStore
+#Whatsapp
 mas install 1147396723
-
-#Install Signal from AppStore
+#Signal
 mas install 874139669
+#Slack
+mas install 803453959
